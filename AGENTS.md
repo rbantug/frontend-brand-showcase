@@ -107,3 +107,28 @@ At the end of each ticket, provide:
 7. Known limitations or outstanding issues.
 
 Do not mark a ticket complete if its acceptance criteria have not been satisfied.
+
+## Git Commit Conventions
+
+Use Conventional Commits for all project commits.
+
+Format:
+
+`<type>(<ticket-id>): <short description>`
+
+Examples:
+
+- `build(SETUP-01): scaffold Vue application`
+- `build(SETUP-02): integrate vite-ssg`
+- `feat(SEO-01): add page metadata`
+- `test(TEST-01): configure component testing`
+
+Rules:
+- Use lowercase descriptions.
+- Include the relevant backlog ticket ID as the scope.
+- Use concise, descriptive, imperative wording.
+- Keep the subject under 72 characters where practical.
+- Add a commit body when additional implementation context is useful.
+- Create one commit after each ticket has been implemented, reviewed, and verified.
+- Never commit incomplete work.
+- Never create commits without explicit user authorization.
