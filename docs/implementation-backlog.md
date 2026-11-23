@@ -23,7 +23,7 @@ Each ticket should be manageable as an individual implementation task.
 
 # Phase 1 — Foundation
 
-## SETUP-01: Scaffold Vue application
+## SETUP-01: Scaffold Vue application -- DONE 11/20/2026
 
 **Objective:** Establish the initial Vue application.
 
