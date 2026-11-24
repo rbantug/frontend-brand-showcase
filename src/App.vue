@@ -4,4 +4,14 @@
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.example-card {
+  &__title {
+    position: block;
+  }
+
+  &--featured {
+    position: block;
+  }
+}
+</style>
