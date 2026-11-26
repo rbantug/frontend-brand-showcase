@@ -1,17 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppLayout from '@/components/layout/AppLayout.vue'
+</script>
 
 <template>
-  <RouterView />
+  <AppLayout>
+    <RouterView />
+  </AppLayout>
 </template>
-
-<style scoped lang="scss">
-.example-card {
-  &__title {
-    position: block;
-  }
-
-  &--featured {
-    position: block;
-  }
-}
-</style>
